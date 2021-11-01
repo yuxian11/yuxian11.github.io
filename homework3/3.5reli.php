@@ -1,14 +1,9 @@
 <?php
-/*
- * Created on 2016-7-20
- */
-SimCalendar('2021-10');//显示8月份日历
+
+SimCalendar('2021-10');//显示x月份日历
 function SimCalendar($date)
 {
-  /**
-   * 简单日历输出,本函数需要cal_days_in_month的支持
-   * @param $date Y-m 要输出的日期
-   */
+  
   echo '<table border="1">
   <thead>
     <tr>
